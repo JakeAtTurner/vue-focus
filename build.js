@@ -15,7 +15,7 @@ Promise
 function generateCommonModule() {
   return rollup
     .rollup({
-      entry: 'index.js',
+      entry: 'src/index.js',
       external: [ 'vue' ],
     })
     .then(function(bundle) {
@@ -31,7 +31,7 @@ function generateCommonModule() {
 function generateBundledDev() {
   return rollup
     .rollup({
-      entry: 'index.js',
+      entry: 'src/index.js',
       external: [ 'vue' ],
       plugins: [
         replace({
@@ -54,7 +54,7 @@ function generateBundledDev() {
 function generateBundledProd() {
   return rollup
     .rollup({
-      entry: 'index.js',
+      entry: 'src/index.js',
       external: [ 'vue' ],
       plugins: [
         replace({
