@@ -28,7 +28,7 @@
     "uglify-js": "^2.6.1"
   },
   "files": [
-    "index.js",
+    "src/focus.js",
     "dist"
   ],
   "homepage": "https://github.com/simplesmiler/vue-focus",
@@ -50,7 +50,7 @@
     "url": "https://github.com/simplesmiler/vue-focus"
   },
   "scripts": {
-    "lint": "./node_modules/.bin/eslint src/index.js build.js",
+    "lint": "./node_modules/.bin/eslint src/focus.js build.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "serve": "vue-cli-service serve"
   }
